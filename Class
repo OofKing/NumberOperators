@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Number_Operators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner DumpTruck = new Scanner(System.in);
+		Scanner PickupTruck = new Scanner(System.in);
+		System.out.println("Enter Number: ");
+		int Oof = DumpTruck.nextInt();
+		System.out.println("Enter Another Number: ");
+		int Off = PickupTruck.nextInt();
+		System.out.println(Oof+Off);
+	}
+
+}
